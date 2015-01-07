@@ -12,7 +12,7 @@ def application(environ, start_response):
         response_body = '\n'.join(response_body)
     else:
         ctype = 'text/html'
-        response_body = '''Hello teacher
+        response_body = '''Hello teacher </br>
            Nice to meet you'''
 
     status = '200 OK'
