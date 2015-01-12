@@ -13,6 +13,7 @@ def application(environ, start_response):
     else:
         ctype = 'text/html'
         response_body = '''Hello teacher </br>
+           My name is Sandy</br>
            Nice to meet you'''
 
     status = '200 OK'
